@@ -39,7 +39,7 @@ tbody{
 }
 
 header{
-    height: 80px;
+    height:25px;
     display: flex;
     justify-content: space-around;
 align-items:center;
@@ -47,7 +47,7 @@ align-items:center;
 position: fixed;
 z-index: 1;
 top: 0;
-
+background-color: aquamarine;
 }
 
 .header{
