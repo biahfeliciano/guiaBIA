@@ -19,41 +19,45 @@ th {
     border-color: black;
 }
 
-ul {
-    border-radius: 0;
-    border-width: 3px;
-    border-style: solid;
-    border-color: black;
-}
-
 div {
     border-radius: 0;
     border-width: 3px;
     border-style: solid;
     border-color: black;
-    
 }
 
-tbody{
-    background-color: aquamarine;
+tbody {
+    background-color: blueviolet;
 }
 
-header{
-    height:25px;
+header {
+    height: 25px;
     display: flex;
     justify-content: space-around;
-align-items:center;
-
-position: fixed;
-z-index: 1;
-top: 0;
-background-color: aquamarine;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    background-color: blueviolet;
+    border-radius: 10px;
 }
 
-.header{
-
+.header {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    background-color: black;
+    
+}
+
+a {
+    margin: 4px;
+    padding: 2px;
+    font-size: large;
+    color: white;
+}
+.div_header{
+    margin: 10px;
+    border-width: 0px;
 }

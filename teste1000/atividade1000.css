@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto+Slab & display=swap');
+
+
+
+h2{
+    font-family: "Roboto Slab", sans-serif;
+    font-style: italic;
+    font-weight: 400;
+  font-display: swap;
+}
+
+h3{ 
+    font-family: "Roboto Slab", sans-serif;
+    font-style: normal;
+    font-weight: 200;
+  font-display: swap;
+}
