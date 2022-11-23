@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exemplo com Script</title>
+        <link href="./style.css" rel="stylesheet">
+    </head>
+<body>
+
+
+<form id="formulario">
+    <h2 id="demo"></h2>
+    <input type="number" placeholder="Digite um número" id="number1"> 
+    <input type="number" placeholder="Digite um número" id="number2"> 
+    <input type="submit" value="Enviar">
+</form>
+
+<script>
+
+var form = document.getElementById('formulario');
+let Num1 = document.getElementById('number1');
+let Num2 = document.getElementById('number2');
+
+
+form.addEventListener('submit', function(e) {
+    let N1 = Num1.value
+    let N2 = Num2.value
+     let Maior=0;
+     let Menor=0;
+     let igual=0;
+
+  if (N1===N2)
+    {
+         document.getElementById("demo").innerHTML = 'Ambos são iguais';
+    }
+    else{
+    if(N1>N2){
+        Maior=N1
+        Menor=N2 
+        }
+        else {
+            Maior=N2
+            Menor=N1
+        }
+    document.getElementById("demo").innerHTML = 'Maior: '+Maior+' Menor: '+Menor;
+    }
+    e.preventDefault();
+
+});
+</script> 
+
+</body>
+</html>
