@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Griffy&display=swap');
+ header {
+     background-color: #F9003D;
+     height: 100px;
+     position: fixed;
+     width: 2000px;
+     z-index: 99;
+     display: flex;
+     justify-content: space-around;
+     flex-direction: row;
+ }
+
+ .texto-banner{
+     display: flex;
+     flex-direction: column;
+     color: white;
+ }
+ h1{
+     margin: 250px 0px 0px 300px;
+     font-size: 350%;
+ }
+ .titulo-senai{
+     margin: 20px 0px 0px 300px;
+     font-size: 150%;
+ }
+ 
+ .banner {
+     background-image: url(./imagem-fundo-banner.jpg);
+     height: 800px;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+ }
+.container-grid{
+     color: white;
+     display: flex;
+     justify-content: space-around;
+     flex-direction: column;
+     padding: 10px 50px 10px 50px;
+     margin: 15px;
+}
+.conteudo-sobre{
+     display: flex;
+     justify-content: space-around;
+     flex-direction: row;
+}
+.texto-sobre{
+     display: flex;
+     flex-direction: column;
+     padding: 10px 200px 10px 200px;
+}
+
+ 
+ .imgheader {
+     width: 203px;
+     height: 80px;
+ }
+ 
+ a {
+     font-size: large;
+     margin: 9x;
+     padding: 9px;
+     color: rgb(255, 255, 255);
+ }
+ 
+ .div_logo {
+     display: flex;
+     justify-content: start;
+     flex-direction: row;
+ }
+ 
+ .div_links {
+     display: flex;
+     justify-content: end;
+     flex-direction: row;
+ }
+ 
+ footer {
+     background-color: #F9003D;
+     display: flex;
+     justify-content: center;
+     flex-direction: row;
+ }
+ 
+ .botoes{
+     border-radius: 25px;
+     border-width: 2px;
+     border-style:solid;
+     padding: 25px;
+     margin: 10px;
+     color: white;
+ }
+
+body{
+background-color: rgb(11, 11, 48);
+}
+.imagem-sobre{
+    border-radius: 25px;
+}
+h3{
+    font-size: 150%;
+}
+p{
+    font-size: 110%;
+}
